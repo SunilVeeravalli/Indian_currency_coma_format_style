@@ -48,7 +48,7 @@ print(df)
 # Formatting the values in column 'amount' to India style and 
 # saving the outcomes to a new column 'amount_formatted' 
 
-df['amount_formatted'] = df['amount'].apply(number_coma_separation)
+df['amount_formatted'] = df['amount'].apply(number_comma_separation)
 print(df)
 
 #   category      amount amount_formatted
@@ -66,13 +66,13 @@ an acceptable data type.
 
 ```python
 # Passing a dict data type
-number_coma_separation({'a': 1})
+number_comma_separation({'a': 1})
 ```
 ![Error](Images/dict_error.png)
 
 ```python
 # Passing a boolean data type
-number_coma_separation(True)
+number_comma_separation(True)
 ```
 ![Error](Images/bool_error.png)
 
