@@ -2,10 +2,10 @@ from collections import deque
 import typing
 
 
-def number_coma_separation(val: typing.Union[int, float, str]) -> str:
+def number_comma_separation(val: typing.Union[int, float, str]) -> str:
     """
     This function will convert an integer or float or string (positive or
-    negative) into a Indian style coma separated number.
+    negative) into a Indian style comma separated number.
 
     Example
     =======
@@ -57,7 +57,7 @@ def number_coma_separation(val: typing.Union[int, float, str]) -> str:
         else (abs_val, None)
     
     # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-    # Append comas
+    # Append commas
     # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     
     # If the length is <=3, return as is
