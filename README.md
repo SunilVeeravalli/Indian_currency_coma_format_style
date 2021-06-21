@@ -1,6 +1,6 @@
 # Thousand separator - Indian numbering format
 
-India follows a different style of thousand separator. This script converts a number into Indian style thousand coma separated value.
+India follows a different style of thousand separator. This script converts a number into Indian style thousand comma separated value.
 
 #### Example
 - In Great Britain, 1 million pounds is written as 1,000,000
@@ -17,12 +17,12 @@ Working with single values.
 Usage                                   Outcome
 ===================================     ==========================
 
-number_coma_separation(1234)            '1,2345'
-number_coma_separation(2345.678)        '2,345.678'
-number_coma_separation('3456.14')       '3,456.14'
-number_coma_separation(-145.1256)       '-145.1256'
-number_coma_separation(-789456)         '-7,89,456'
-number_coma_separation('-456.321')      '-456.321'
+number_comma_separation(1234)           '1,2345'
+number_comma_separation(2345.678)       '2,345.678'
+number_comma_separation('3456.14')      '3,456.14'
+number_comma_separation(-145.1256)      '-145.1256'
+number_comma_separation(-789456)        '-7,89,456'
+number_comma_separation('-456.321')     '-456.321'
 ```
 
 ### Use case 2
